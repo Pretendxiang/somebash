@@ -1,0 +1,11 @@
+alias basha="gedit ~/.bash_aliases"
+alias bashrc="gedit ~/.bashrc"
+alias px4l="roslaunch mavros px4.launch"
+alias apm="roslaunch mavros apm.launch"
+alias px4lf="roslaunch mavros px4.launch fcu_url:=/dev/ttyTHS1:57600"
+alias rsvs="rosservice call /mavros/set_stream_rate '{message_rate: 10, on_off: 1}'"
+alias rimu="rostopic echo -c /mavros/imu/data"
+alias sbash="source ~/.bashrc"
+alias openf="nautilus ."
+alias roskill="killall -9 rosmaster && killall -9 roscore"
+
